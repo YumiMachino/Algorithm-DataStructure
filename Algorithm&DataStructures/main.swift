@@ -16,13 +16,17 @@ import Foundation
 //printBinary(-500)
 //reverseLines(1)
 
-// MARK: - Recursion
+// MARK: - Recursion Assignment Test
 //print(evaluate(expression: "7"))
 //evaluate(expression: "(2 + 3)")
 
 // check helper function
-//print(calc(stringExpression: "2+3"))
-//print(calc(stringExpression: "2*3"))
-//print(evaluate(expression: "((1+3)+((1+2)*5))"))
-//print(evaluate(expression: "1 + (2*4)"))
-print(evaluate(expression: "1+ (2*4)"))
+//print(calc(stringExpression: "4+15"))
+//print(calc(stringExpression: "3*5"))
+
+print(evaluate(expression: "7"))
+print(evaluate(expression: "(2+2)"))
+print(evaluate(expression: "1+(2*4)"))
+print(evaluate(expression: "((1+3)+((1+2)*5))"))
+
+

@@ -21,30 +21,38 @@ import Foundation
  */
 
 func evaluate(expression: String) -> Int {
+    /// change let to var
     var strExpression = expression
+    /// best case
     if strExpression.count == 0 || strExpression.count == 1 {
         let intValue: Int = Int(expression) ?? 1
         return intValue
     }
-
+    /// end case without parentheses
     if !strExpression.contains("(") && !strExpression.contains(")") {
         let intValue = calc(stringExpression: strExpression)
-//        print(intValue)
         return intValue
     }
-      
+    /// end case with parentheses
+    if strExpression.prefix(1) == "(" && strExpression.suffix(1) == ")" {
+        let subString = strExpression[1, strExpression.count - 1]
+        if !subString.contains("(") && !subString.contains(")") {
+            let intValue = calc(stringExpression: subString)
+            return intValue
+        }
+    }
+    
     var index = 0
     for char in strExpression {
         index += 1
         if char == "(" {
             if strExpression[index + 3, index + 4] == ")" {
                 let subString = strExpression[index, index + 3]
-//                print(subString)
                 let intValue = calc(stringExpression:subString)
                 let str = String(intValue)
                 /// replace calc to sum
                 strExpression = strExpression.replacingOccurrences( of: strExpression[index - 1, index + 4], with: str)
-//               print(strExpression)
+                /// recursive
               return evaluate(expression: strExpression)
             }
         }
@@ -53,13 +61,25 @@ func evaluate(expression: String) -> Int {
 }
  
 
+/// Helper function: calculate from string expression
 func calc(stringExpression: String) -> Int {
-    guard let left = Int(stringExpression[0]) else {return 0}
-    guard let right = Int(stringExpression[stringExpression.count - 1]) else {return 0}
-    if stringExpression[1] == "+" {
-        return left + right
-    } else if stringExpression[1] == "*" {
-        return left * right
+    var signIndex = 0
+    var index = 0
+    for char in stringExpression {
+        if char == "+" {
+            signIndex = index
+            guard let left = Int(stringExpression[0, signIndex]) else {return 0}
+            guard let right = Int(stringExpression[signIndex + 1, stringExpression.count]) else {return 0}
+            
+            return left + right
+        } else if char == "*" {
+            signIndex = index
+            guard let left = Int(stringExpression[0, signIndex]) else {return 0}
+            guard let right = Int(stringExpression[signIndex + 1, stringExpression.count]) else {return 0}
+            
+            return left * right
+        }
+        index += 1
     }
     return 0
 }
