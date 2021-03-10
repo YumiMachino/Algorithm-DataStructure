@@ -7,5 +7,22 @@
 
 import Foundation
 
-print("Hello, World!")
 
+// MARK: - Recursion
+//print(factorial(n: 5))
+//print(mystery(n: 648))
+//print(power(base: 2, exponent: 3))
+//print(isPalindrome("madam"))
+//printBinary(-500)
+//reverseLines(1)
+
+// MARK: - Recursion
+//print(evaluate(expression: "7"))
+//evaluate(expression: "(2 + 3)")
+
+// check helper function
+//print(calc(stringExpression: "2+3"))
+//print(calc(stringExpression: "2*3"))
+//print(evaluate(expression: "((1+3)+((1+2)*5))"))
+//print(evaluate(expression: "1 + (2*4)"))
+print(evaluate(expression: "1+ (2*4)"))
