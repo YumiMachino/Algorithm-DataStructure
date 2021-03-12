@@ -24,9 +24,16 @@ import Foundation
 //print(calc(stringExpression: "4+15"))
 //print(calc(stringExpression: "3*5"))
 
-print(evaluate(expression: "7"))
-print(evaluate(expression: "(2+2)"))
-print(evaluate(expression: "1+(2*4)"))
-print(evaluate(expression: "((1+3)+((1+2)*5))"))
+//print(evaluate(expression: "7"))
+//print(evaluate(expression: "(2+2)"))
+//print(evaluate(expression: "1+(2*4)"))
+//print(evaluate(expression: "((1+3)+((1+2)*5))"))
 
 
+// MARK: - Ehaustive Search
+//printBinaryExhaustive(3)
+//printDecimalExhaustive(3)
+//permutation("park")
+
+// MARK: - Backtracking
+rollDice(2)

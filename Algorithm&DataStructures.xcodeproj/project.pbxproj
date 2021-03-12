@@ -11,6 +11,8 @@
 		AE4BA9F025F82106000F8948 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9EF25F82106000F8948 /* Recursion.swift */; };
 		AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9F425F86A7D000F8948 /* String+DPStringTool.swift */; };
 		AE4BA9FB25F87558000F8948 /* Recursion_assignment1_evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9FA25F87558000F8948 /* Recursion_assignment1_evaluate.swift */; };
+		AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AF7BF25F97A220091AD7B /* ExhaustiveSearch.swift */; };
+		AE60933C25FAC5AB00C2D231 /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60933B25FAC5AB00C2D231 /* Backtracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,8 @@
 		AE4BA9F425F86A7D000F8948 /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
 		AE4BA9F825F86FAF000F8948 /* provinces.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = provinces.txt; sourceTree = SOURCE_ROOT; };
 		AE4BA9FA25F87558000F8948 /* Recursion_assignment1_evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion_assignment1_evaluate.swift; sourceTree = "<group>"; };
+		AE5AF7BF25F97A220091AD7B /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
+		AE60933B25FAC5AB00C2D231 /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				AE4BA9F825F86FAF000F8948 /* provinces.txt */,
 				AE4BA9EF25F82106000F8948 /* Recursion.swift */,
 				AE4BA9FA25F87558000F8948 /* Recursion_assignment1_evaluate.swift */,
+				AE5AF7BF25F97A220091AD7B /* ExhaustiveSearch.swift */,
+				AE60933B25FAC5AB00C2D231 /* Backtracking.swift */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE4BA9FB25F87558000F8948 /* Recursion_assignment1_evaluate.swift in Sources */,
+				AE60933C25FAC5AB00C2D231 /* Backtracking.swift in Sources */,
 				AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */,
 				AE4BA9F025F82106000F8948 /* Recursion.swift in Sources */,
+				AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */,
 				AE4BA9E725F82094000F8948 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
