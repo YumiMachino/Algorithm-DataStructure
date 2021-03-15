@@ -36,4 +36,7 @@ import Foundation
 //permutation("park")
 
 // MARK: - Backtracking
-rollDice(2)
+//rollDice(2)
+
+var arr = [1,2,9,5,0]
+print(quickSort(arr, <))
