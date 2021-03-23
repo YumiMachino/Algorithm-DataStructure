@@ -38,5 +38,40 @@ import Foundation
 // MARK: - Backtracking
 //rollDice(2)
 
-var arr = [1,2,9,5,0]
-print(quickSort(arr, <))
+//var arr = [1,2,9,5,0]
+//print(quickSort(arr, <))
+
+//let bag = Bag<Int>()
+//
+//bag.add(item:10)
+//print(bag)
+//
+//let stack = Stack<Int>()
+//
+//stack.push(item: 10)
+//stack.push(item: 20)
+//stack.push(item: 30)
+//print(stack)
+//print(stack.peek()!)
+//print(stack.pop()!)
+//print(stack)
+
+
+//let queue = Queue_<Int>()
+//queue.enqueue(item: 10)
+//queue.enqueue(item: 20)
+//print(queue)
+//print(queue.dequeue()!)
+//print(queue)
+
+//temp()
+
+//something()
+
+//print(RabinKarp(text: "cde", pattern: "cde"))"
+//some(text: "cde", pattern: "cde")
+//print(temp2(text: "cdefgab", pattern: "def"))
+
+//print(RabinKarp(text: "abcdef", pattern: "cde"))
+
+lowestCommonAncestor()

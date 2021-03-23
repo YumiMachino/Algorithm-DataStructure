@@ -101,47 +101,35 @@ func merge<T: Comparable>(_ left: [T], _ right: [T], _ comparator: (T, T) -> Boo
   return merged
 }
 
-// 5. Quick Sort (Assignment) - O(Nlg N)
 
-func quickSort<T: Comparable>(_ arr: [T], _ comparator: (T, T) -> Bool) -> [T] {
-    var sortedLeft = [T]()
-    var sortedRight = [T]()
-    var picked = [T]()
-    
-    guard arr.count > 1 else { return arr }
-    
-    if sortedLeft.count == 1 || sortedRight.count == 1 || sortedLeft == nil || sortedRight == nil {
-        return quick(sortedLeft, sortedRight, picked, comparator)
+// 5. Quick Sort
+// Time Complexity: O(n lg n)
+// Space Complexity: O(1) (in-place)
+func quickSort<T: Comparable>(_ arr: inout [T], _ start: Int, _ end: Int) {
+    if start < end {
+        let pivotIndex = partition(&arr, start, end)
+        quickSort(&arr, start, pivotIndex - 1)
+        quickSort(&arr, pivotIndex + 1, end)
     }
-    
-    let pivotIndex = arr.count - 1
-    
-    for i in 0...arr.count - 1 {
-        if i == pivotIndex {
-            picked.append(arr[pivotIndex])
-        }
-        if comparator(arr[pivotIndex], arr[i]) {
-            sortedLeft.append(arr[i])
-            
-        } else {
-            sortedRight.append(arr[i])
-            
-        }
-    }
-    quickSort(sortedLeft, comparator)
-    quickSort(sortedRight, comparator)
-    return quick(sortedLeft, sortedRight, picked, comparator)
 }
 
-func quick<T: Comparable> (_ left: [T], _ right: [T], _ picked: [T], _ comparator: (T, T) -> Bool) -> [T] {
-    var merged: [T] = []
-    merged.append(contentsOf: left)
-    merged.append(contentsOf: picked)
-    merged.append(contentsOf: right)
-    
-    return merged
+/// - Parameters:
+///   - arr: the array
+///   - start: start index
+///   - end: end index
+/// - Returns: the index of the pivot
+func partition<T: Comparable> (_ arr: inout [T], _ start: Int, _ end: Int) -> Int {
+    var pivotIndex = start
+    let pivot = arr[end]
+    for i in start..<end {
+        if arr[i] < pivot {
+            arr.swapAt(pivotIndex, i)
+            pivotIndex += 1
+        }
+     }
+    arr.swapAt(pivotIndex, end)
+    return pivotIndex
 }
-
 
 // 6. Heap Sort (later) - O(Nlg N)
 
