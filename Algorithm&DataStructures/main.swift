@@ -74,4 +74,6 @@ import Foundation
 
 //print(RabinKarp(text: "abcdef", pattern: "cde"))
 
-lowestCommonAncestor()
+//lowestCommonAncestor()
+
+cyclicPermutation()
