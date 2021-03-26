@@ -17,75 +17,40 @@ import Foundation
 // second:       siez of permutation (N)
 // third: permutation of N integers
 
-
 func cyclicPermutation() {
-    let firstLine = readLine()!.split(separator: " ")
     
-    // get input for the number of test cases
-    let numOfTestCases = Int(firstLine[0])!
-    // get num of permutation
-    let n = Int(readLine()!)!
-    // create adjacency list to store the input permutation: n x n
-    var adjMatrix = [[Int]](repeating:[Int](repeating: 0, count: n + 1), count: n + 1)
+    let test = Int(readLine()!)!
     
-    let edges = readLine()!.split(separator: " ")
-    
-    for i in 0..<n {
-        /// v -> ending nodes
-        let v = Int(edges[i])!
-        adjMatrix[i + 1][v] = 1
-    }
-    
-    /// inner function for Depth First Search
-    func dfs(vertex: Int, adjList: inout [[Int]], visited: inout [Bool]) {
-      /// check the visiting vertext
-      visited[vertex] = true
-      print(vertex)
-      for v in adjList[vertex] {
-        if !visited[v] {
-          dfs(vertex: v, adjList: &adjList, visited: &visited)
+    while test >= 0 {
+        let n = Int(readLine()!)!
+        
+        var adjList = [Int](repeating: 0, count: n + 1)
+        let edge = readLine()!.split(separator: " ")
+        
+        for i in 0..<n {
+            let u = i + 1
+            let v = Int(edge[i])!
+            adjList[u] = v
         }
-      }
+        
+        /// inner function for dfs
+        func dfs(vertex: Int, adjList: inout [Int], visited: inout [Bool]) {
+            /// change 1 to true
+            visited[vertex] = true
+            /// loop through the list using index
+            if !visited[adjList[vertex]] {
+                dfs(vertex: adjList[vertex], adjList: &adjList, visited: &visited)
+            }
+        }
+        
+        var visited = [Bool](repeating: false, count: n + 1)
+        var count = 0
+        for v in 1...n {
+            if !visited[v] {
+                dfs(vertex: v, adjList: &adjList, visited: &visited)
+                count += 1
+            }
+        }
+        print(count)
     }
-    
-    var visited = [Bool](repeating: false, count: n + 1)
-    dfs(vertex: 1, adjList: &adjMatrix, visited: &visited)
-    
-    
-    
-    
-    
 }
-
-
-func adjacencyListDFS() {
-  let firstLine = readLine()!.split(separator: " ")
-  let n = Int(firstLine[0])!
-  let m = Int(firstLine[1])!
-  
-  var adjList = [[Int]](repeating: [], count: n + 1)
-  
-  for _ in 0..<m {
-    let edge = readLine()!.split(separator: " ")
-    let u = Int(edge[0])!
-    let v = Int(edge[1])!
-    
-    adjList[u].append(v)
-    adjList[v].append(u)
-  }
-  
-  
-  func dfs(vertex: Int, adjList: inout [[Int]], visited: inout [Bool]) {
-    visited[vertex] = true
-    print(vertex)
-    for v in adjList[vertex] {
-      if !visited[v] {
-        dfs(vertex: v, adjList: &adjList, visited: &visited)
-      }
-    }
-  }
-  
-  var visited = [Bool](repeating: false, count: n + 1)
-  dfs(vertex: 1, adjList: &adjList, visited: &visited)
-}
-
