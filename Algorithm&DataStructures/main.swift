@@ -76,4 +76,6 @@ import Foundation
 
 //lowestCommonAncestor()
 
-cyclicPermutation()
+//cyclicPermutation()
+
+repeatingSequence()
