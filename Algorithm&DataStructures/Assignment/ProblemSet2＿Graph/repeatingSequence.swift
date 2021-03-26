@@ -14,34 +14,47 @@ import Foundation
 func repeatingSequence() {
     
     let firstLine = readLine()!.split(separator: " ")
-    let A = Int(firstLine[0])!
+    var A = Int(firstLine[0])!
     let p = Int(firstLine[1])!
     
-    var leftInt = A / 10
-    var rightInt =  A % ((A / 10) * 10)
-
-    let n = 10
-    //create adjancy list
-    var adjList = [Int](repeating: 0, count: n)
-    adjList[1] = A
+    var value = 0
+    var temp: Int = 0
+    var arr = [Int]()
+    arr.append(A)       // [57]
+    var i = 0
     
-    
-    for i in 2..<n {
-        let u = i
-        var result1 = pow(Decimal(leftInt), p)
-        var result2 = pow(Decimal(rightInt), p)
-        let result = NSDecimalNumber(decimal: result1 + result2)
-        let v = Int(result)
-        adjList[u] = v
-        print(adjList)
-
-        leftInt = v / 10
-        rightInt = v % ((v / 10) * 10)
+    while true {
+        let s = String(A)   // "57"
+        let digits = s.compactMap {$0.wholeNumberValue}
+        for i in 0...digits.count - 1 {
+            let intVal = Int(digits[i])
+            temp = Int(pow(Double(intVal),Double(p)))
+            value = value + temp
+        }
+        arr.append(value)
+        A = value
+        value = 0
+        if !check(value: A, arr: arr) {
+            let index = arr.firstIndex(of: arr[i + 1])
+            print(index!)
+            break
+        }
+        i += 1
     }
-    
-    
-    
 }
 
+/// helper function to check the duplicates
+func check(value: Int, arr: [Int]) -> Bool{
+    var count = 0
+    for i in 0...arr.count - 1 {
+        if arr[i] == value {
+            count += 1
+        }
+    }
+    if count == 0 || count == 1 {
+        return true
+    }
+    return false
+}
 
 
