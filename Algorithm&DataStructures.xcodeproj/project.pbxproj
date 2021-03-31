@@ -29,6 +29,7 @@
 		AE5C7ABD2603C84C00476E62 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C7ABC2603C84C00476E62 /* Stack.swift */; };
 		AE60933C25FAC5AB00C2D231 /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60933B25FAC5AB00C2D231 /* Backtracking.swift */; };
 		AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE617053260D6A8C00044F16 /* repeatingSequence.swift */; };
+		AE9B5FA42613D84F00564D75 /* sample_submission.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B5FA32613D84F00564D75 /* sample_submission.swift */; };
 		AE9CF8D025FEDABF00E675C5 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */; };
 		AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CF25FEDABF00E675C5 /* Searching.swift */; };
 		AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B225FFF74900532A04 /* Bag_ori.swift */; };
@@ -36,6 +37,7 @@
 		AEB519BA260011D500532A04 /* Queue_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B9260011D500532A04 /* Queue_.swift */; };
 		AEB519BD260011DC00532A04 /* Stack_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519BC260011DC00532A04 /* Stack_.swift */; };
 		AEE0BC6E26041C13009CFD5A /* Who'sMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */; };
+		AEF751C0260E5E1700386123 /* SushiReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF751BF260E5E1700386123 /* SushiReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,6 +97,61 @@
 		AE5C7ABC2603C84C00476E62 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		AE60933B25FAC5AB00C2D231 /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
 		AE617053260D6A8C00044F16 /* repeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatingSequence.swift; sourceTree = "<group>"; };
+		AE9B5F6D2613D83C00564D75 /* sushi.7.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.7.in; sourceTree = "<group>"; };
+		AE9B5F6E2613D83C00564D75 /* sushi.13.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.13.in; sourceTree = "<group>"; };
+		AE9B5F6F2613D83C00564D75 /* sushi.21.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.21.out; sourceTree = "<group>"; };
+		AE9B5F702613D83D00564D75 /* sushi.5.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.5.in; sourceTree = "<group>"; };
+		AE9B5F712613D83D00564D75 /* sushi.14.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.14.out; sourceTree = "<group>"; };
+		AE9B5F722613D83D00564D75 /* sushi.2.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.2.out; sourceTree = "<group>"; };
+		AE9B5F732613D83D00564D75 /* sushi.3.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.3.in; sourceTree = "<group>"; };
+		AE9B5F742613D83D00564D75 /* sushi.15.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.15.in; sourceTree = "<group>"; };
+		AE9B5F752613D83D00564D75 /* sushi.10.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.10.out; sourceTree = "<group>"; };
+		AE9B5F762613D83D00564D75 /* sushi.2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.2.in; sourceTree = "<group>"; };
+		AE9B5F772613D83D00564D75 /* sushi.20.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.20.in; sourceTree = "<group>"; };
+		AE9B5F782613D83E00564D75 /* sushi.8.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.8.in; sourceTree = "<group>"; };
+		AE9B5F792613D83E00564D75 /* sushi.12.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.12.in; sourceTree = "<group>"; };
+		AE9B5F7A2613D83E00564D75 /* sushi.12.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.12.out; sourceTree = "<group>"; };
+		AE9B5F7B2613D83E00564D75 /* sushi.6.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.6.in; sourceTree = "<group>"; };
+		AE9B5F7C2613D83E00564D75 /* sushi.20.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.20.out; sourceTree = "<group>"; };
+		AE9B5F7D2613D83E00564D75 /* sushisamp.1.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.1.out; sourceTree = "<group>"; };
+		AE9B5F7E2613D83F00564D75 /* sushi.25.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.25.in; sourceTree = "<group>"; };
+		AE9B5F7F2613D83F00564D75 /* sushi.18.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.18.in; sourceTree = "<group>"; };
+		AE9B5F802613D83F00564D75 /* sushi.24.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.24.in; sourceTree = "<group>"; };
+		AE9B5F812613D83F00564D75 /* sushi.19.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.19.in; sourceTree = "<group>"; };
+		AE9B5F822613D83F00564D75 /* sushi.11.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.11.in; sourceTree = "<group>"; };
+		AE9B5F832613D83F00564D75 /* sushi.3.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.3.out; sourceTree = "<group>"; };
+		AE9B5F842613D84000564D75 /* sushi.17.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.17.out; sourceTree = "<group>"; };
+		AE9B5F852613D84000564D75 /* sushi.16.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.16.in; sourceTree = "<group>"; };
+		AE9B5F862613D84000564D75 /* sushi.25.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.25.out; sourceTree = "<group>"; };
+		AE9B5F872613D84000564D75 /* sushi.9.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.9.in; sourceTree = "<group>"; };
+		AE9B5F882613D84000564D75 /* sushi.1.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.1.out; sourceTree = "<group>"; };
+		AE9B5F892613D84000564D75 /* sushi.9.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.9.out; sourceTree = "<group>"; };
+		AE9B5F8A2613D84000564D75 /* sushi.19.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.19.out; sourceTree = "<group>"; };
+		AE9B5F8B2613D84100564D75 /* sushi.1.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.1.in; sourceTree = "<group>"; };
+		AE9B5F8C2613D84100564D75 /* sushi.22.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.22.out; sourceTree = "<group>"; };
+		AE9B5F8D2613D84100564D75 /* sushi.5.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.5.out; sourceTree = "<group>"; };
+		AE9B5F8E2613D84100564D75 /* sushisamp.2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.2.in; sourceTree = "<group>"; };
+		AE9B5F8F2613D84100564D75 /* sushi.15.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.15.out; sourceTree = "<group>"; };
+		AE9B5F902613D84100564D75 /* sushi.18.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.18.out; sourceTree = "<group>"; };
+		AE9B5F912613D84200564D75 /* sushi.17.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.17.in; sourceTree = "<group>"; };
+		AE9B5F922613D84200564D75 /* sushi.21.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.21.in; sourceTree = "<group>"; };
+		AE9B5F932613D84200564D75 /* sushi.11.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.11.out; sourceTree = "<group>"; };
+		AE9B5F942613D84200564D75 /* sushi.8.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.8.out; sourceTree = "<group>"; };
+		AE9B5F952613D84200564D75 /* sushi.14.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.14.in; sourceTree = "<group>"; };
+		AE9B5F962613D84200564D75 /* sushi.22.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.22.in; sourceTree = "<group>"; };
+		AE9B5F972613D84200564D75 /* sushi.4.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.4.out; sourceTree = "<group>"; };
+		AE9B5F982613D84300564D75 /* sushi.13.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.13.out; sourceTree = "<group>"; };
+		AE9B5F992613D84300564D75 /* sushi.23.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.23.out; sourceTree = "<group>"; };
+		AE9B5F9A2613D84300564D75 /* sushi.24.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.24.out; sourceTree = "<group>"; };
+		AE9B5F9B2613D84300564D75 /* sushi.4.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.4.in; sourceTree = "<group>"; };
+		AE9B5F9C2613D84300564D75 /* sushisamp.1.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.1.in; sourceTree = "<group>"; };
+		AE9B5F9D2613D84300564D75 /* sushi.23.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.23.in; sourceTree = "<group>"; };
+		AE9B5F9E2613D84300564D75 /* sushi.10.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.10.in; sourceTree = "<group>"; };
+		AE9B5F9F2613D84300564D75 /* sushi.6.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.6.out; sourceTree = "<group>"; };
+		AE9B5FA02613D84400564D75 /* sushi.7.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.7.out; sourceTree = "<group>"; };
+		AE9B5FA12613D84400564D75 /* sushi.16.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.16.out; sourceTree = "<group>"; };
+		AE9B5FA22613D84400564D75 /* sushisamp.2.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.2.out; sourceTree = "<group>"; };
+		AE9B5FA32613D84F00564D75 /* sample_submission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sample_submission.swift; sourceTree = "<group>"; };
 		AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		AE9CF8CF25FEDABF00E675C5 /* Searching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		AEB519B225FFF74900532A04 /* Bag_ori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_ori.swift; sourceTree = "<group>"; };
@@ -102,6 +159,7 @@
 		AEB519B9260011D500532A04 /* Queue_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_.swift; sourceTree = "<group>"; };
 		AEB519BC260011DC00532A04 /* Stack_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_.swift; sourceTree = "<group>"; };
 		AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Who'sMyParent.swift"; sourceTree = "<group>"; };
+		AEF751BF260E5E1700386123 /* SushiReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +326,67 @@
 			path = BagStackQueue;
 			sourceTree = "<group>";
 		};
+		AE9B5F6C2613D82000564D75 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B5F8B2613D84100564D75 /* sushi.1.in */,
+				AE9B5F882613D84000564D75 /* sushi.1.out */,
+				AE9B5F762613D83D00564D75 /* sushi.2.in */,
+				AE9B5F722613D83D00564D75 /* sushi.2.out */,
+				AE9B5F732613D83D00564D75 /* sushi.3.in */,
+				AE9B5F832613D83F00564D75 /* sushi.3.out */,
+				AE9B5F9B2613D84300564D75 /* sushi.4.in */,
+				AE9B5F972613D84200564D75 /* sushi.4.out */,
+				AE9B5F702613D83D00564D75 /* sushi.5.in */,
+				AE9B5F8D2613D84100564D75 /* sushi.5.out */,
+				AE9B5F7B2613D83E00564D75 /* sushi.6.in */,
+				AE9B5F9F2613D84300564D75 /* sushi.6.out */,
+				AE9B5F6D2613D83C00564D75 /* sushi.7.in */,
+				AE9B5FA02613D84400564D75 /* sushi.7.out */,
+				AE9B5F782613D83E00564D75 /* sushi.8.in */,
+				AE9B5F942613D84200564D75 /* sushi.8.out */,
+				AE9B5F872613D84000564D75 /* sushi.9.in */,
+				AE9B5F892613D84000564D75 /* sushi.9.out */,
+				AE9B5F9E2613D84300564D75 /* sushi.10.in */,
+				AE9B5F752613D83D00564D75 /* sushi.10.out */,
+				AE9B5F822613D83F00564D75 /* sushi.11.in */,
+				AE9B5F932613D84200564D75 /* sushi.11.out */,
+				AE9B5F792613D83E00564D75 /* sushi.12.in */,
+				AE9B5F7A2613D83E00564D75 /* sushi.12.out */,
+				AE9B5F6E2613D83C00564D75 /* sushi.13.in */,
+				AE9B5F982613D84300564D75 /* sushi.13.out */,
+				AE9B5F952613D84200564D75 /* sushi.14.in */,
+				AE9B5F712613D83D00564D75 /* sushi.14.out */,
+				AE9B5F742613D83D00564D75 /* sushi.15.in */,
+				AE9B5F8F2613D84100564D75 /* sushi.15.out */,
+				AE9B5F852613D84000564D75 /* sushi.16.in */,
+				AE9B5FA12613D84400564D75 /* sushi.16.out */,
+				AE9B5F912613D84200564D75 /* sushi.17.in */,
+				AE9B5F842613D84000564D75 /* sushi.17.out */,
+				AE9B5F7F2613D83F00564D75 /* sushi.18.in */,
+				AE9B5F902613D84100564D75 /* sushi.18.out */,
+				AE9B5F812613D83F00564D75 /* sushi.19.in */,
+				AE9B5F8A2613D84000564D75 /* sushi.19.out */,
+				AE9B5F772613D83D00564D75 /* sushi.20.in */,
+				AE9B5F7C2613D83E00564D75 /* sushi.20.out */,
+				AE9B5F922613D84200564D75 /* sushi.21.in */,
+				AE9B5F6F2613D83C00564D75 /* sushi.21.out */,
+				AE9B5F962613D84200564D75 /* sushi.22.in */,
+				AE9B5F8C2613D84100564D75 /* sushi.22.out */,
+				AE9B5F9D2613D84300564D75 /* sushi.23.in */,
+				AE9B5F992613D84300564D75 /* sushi.23.out */,
+				AE9B5F802613D83F00564D75 /* sushi.24.in */,
+				AE9B5F9A2613D84300564D75 /* sushi.24.out */,
+				AE9B5F7E2613D83F00564D75 /* sushi.25.in */,
+				AE9B5F862613D84000564D75 /* sushi.25.out */,
+				AE9B5F9C2613D84300564D75 /* sushisamp.1.in */,
+				AE9B5F7D2613D83E00564D75 /* sushisamp.1.out */,
+				AE9B5F8E2613D84100564D75 /* sushisamp.2.in */,
+				AE9B5FA22613D84400564D75 /* sushisamp.2.out */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
 		AEB519B52600115600532A04 /* BagStackQueue */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +402,7 @@
 		AEE0BC6B26041BD8009CFD5A /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				AEF751BE260E5E0000386123 /* GraphTreeAssignmentII */,
 				AE22CFBB260ACA5300B21C69 /* LCATestCases */,
 				AE22CFA8260ABD7800B21C69 /* ProblemSet2＿Graph */,
 				AE22CF9F260A622600B21C69 /* LCA */,
@@ -298,6 +418,16 @@
 				AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */,
 			);
 			path = ProblemSet4_TreeBasics;
+			sourceTree = "<group>";
+		};
+		AEF751BE260E5E0000386123 /* GraphTreeAssignmentII */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B5FA32613D84F00564D75 /* sample_submission.swift */,
+				AE9B5F6C2613D82000564D75 /* TestCases */,
+				AEF751BF260E5E1700386123 /* SushiReview.swift */,
+			);
+			path = GraphTreeAssignmentII;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +506,7 @@
 				AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */,
 				AEE0BC6E26041C13009CFD5A /* Who'sMyParent.swift in Sources */,
 				AE22CFA5260A994F00B21C69 /* BasicGraph.swift in Sources */,
+				AE9B5FA42613D84F00564D75 /* sample_submission.swift in Sources */,
 				AE5C7AB72603C84000476E62 /* Bag.swift in Sources */,
 				AE22CFB6260ABF7600B21C69 /* ConnectedComponents.swift in Sources */,
 				AE41CDEA2603F94E00BF3663 /* IndexPriorityQueue.swift in Sources */,
@@ -383,6 +514,7 @@
 				AE22CFB9260ABF7600B21C69 /* AdjacencyMatrix.swift in Sources */,
 				AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */,
 				AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */,
+				AEF751C0260E5E1700386123 /* SushiReview.swift in Sources */,
 				AE4BA9E725F82094000F8948 /* main.swift in Sources */,
 				AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */,
 				AE51B6FD260672CB0063F936 /* SubstringAlgorithm.swift in Sources */,
