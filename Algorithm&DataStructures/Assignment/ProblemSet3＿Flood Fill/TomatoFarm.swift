@@ -35,12 +35,6 @@ func tomatoFarm() {
     let m = firstLine[0]
     let n = firstLine[1]
     
-//    for _ in 0..<n {
-//        let row = readLine()!.map { Int(String($0))! }
-//        print(row)
-//        farmMap.append(row)
-//    }
-
     /// store data processed
     var ripedMap = [[Int]](repeating: [Int](repeating: 0, count: m), count: n)
     
@@ -71,6 +65,6 @@ func tomatoFarm() {
 
 /// check the unriped place(starting point) using for loop
     /// Do BFS using the location(change to 1 if its adjacent and 0 、add count
-    
+ 
     /// return the count
 }

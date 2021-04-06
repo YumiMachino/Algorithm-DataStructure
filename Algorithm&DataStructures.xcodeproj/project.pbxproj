@@ -32,7 +32,7 @@
 		AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE617053260D6A8C00044F16 /* repeatingSequence.swift */; };
 		AE85B77E261669CC00B4C1A3 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B77D261669CC00B4C1A3 /* TomatoFarm.swift */; };
 		AE85B7822616B57800B4C1A3 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B7812616B57800B4C1A3 /* Bridges.swift */; };
-		AE9B5FA42613D84F00564D75 /* sample_submission.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B5FA32613D84F00564D75 /* sample_submission.swift */; };
+		AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */; };
 		AE9CF8D025FEDABF00E675C5 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */; };
 		AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CF25FEDABF00E675C5 /* Searching.swift */; };
 		AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B225FFF74900532A04 /* Bag_ori.swift */; };
@@ -40,7 +40,6 @@
 		AEB519BA260011D500532A04 /* Queue_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B9260011D500532A04 /* Queue_.swift */; };
 		AEB519BD260011DC00532A04 /* Stack_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519BC260011DC00532A04 /* Stack_.swift */; };
 		AEE0BC6E26041C13009CFD5A /* Who'sMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */; };
-		AEF751C0260E5E1700386123 /* SushiReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF751BF260E5E1700386123 /* SushiReview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +102,7 @@
 		AE617053260D6A8C00044F16 /* repeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatingSequence.swift; sourceTree = "<group>"; };
 		AE85B77D261669CC00B4C1A3 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
 		AE85B7812616B57800B4C1A3 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
+		AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReview2.swift; sourceTree = "<group>"; };
 		AE9B5F6D2613D83C00564D75 /* sushi.7.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.7.in; sourceTree = "<group>"; };
 		AE9B5F6E2613D83C00564D75 /* sushi.13.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.13.in; sourceTree = "<group>"; };
 		AE9B5F6F2613D83C00564D75 /* sushi.21.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.21.out; sourceTree = "<group>"; };
@@ -157,7 +157,6 @@
 		AE9B5FA02613D84400564D75 /* sushi.7.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.7.out; sourceTree = "<group>"; };
 		AE9B5FA12613D84400564D75 /* sushi.16.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.16.out; sourceTree = "<group>"; };
 		AE9B5FA22613D84400564D75 /* sushisamp.2.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.2.out; sourceTree = "<group>"; };
-		AE9B5FA32613D84F00564D75 /* sample_submission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sample_submission.swift; sourceTree = "<group>"; };
 		AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		AE9CF8CF25FEDABF00E675C5 /* Searching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		AEB519B225FFF74900532A04 /* Bag_ori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_ori.swift; sourceTree = "<group>"; };
@@ -165,7 +164,6 @@
 		AEB519B9260011D500532A04 /* Queue_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_.swift; sourceTree = "<group>"; };
 		AEB519BC260011DC00532A04 /* Stack_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_.swift; sourceTree = "<group>"; };
 		AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Who'sMyParent.swift"; sourceTree = "<group>"; };
-		AEF751BF260E5E1700386123 /* SushiReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,9 +454,8 @@
 		AEF751BE260E5E0000386123 /* GraphTreeAssignmentII */ = {
 			isa = PBXGroup;
 			children = (
-				AE9B5FA32613D84F00564D75 /* sample_submission.swift */,
 				AE9B5F6C2613D82000564D75 /* TestCases */,
-				AEF751BF260E5E1700386123 /* SushiReview.swift */,
+				AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */,
 			);
 			path = GraphTreeAssignmentII;
 			sourceTree = "<group>";
@@ -537,11 +534,11 @@
 				AE4D5AB8261421280090E7C8 /* Town.swift in Sources */,
 				AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */,
 				AE22CFB5260ABF7600B21C69 /* AdjacencyList.swift in Sources */,
+				AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */,
 				AE5C7AB02603C7D500476E62 /* TreeTraversal.swift in Sources */,
 				AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */,
 				AEE0BC6E26041C13009CFD5A /* Who'sMyParent.swift in Sources */,
 				AE22CFA5260A994F00B21C69 /* BasicGraph.swift in Sources */,
-				AE9B5FA42613D84F00564D75 /* sample_submission.swift in Sources */,
 				AE5C7AB72603C84000476E62 /* Bag.swift in Sources */,
 				AE22CFB6260ABF7600B21C69 /* ConnectedComponents.swift in Sources */,
 				AE41CDEA2603F94E00BF3663 /* IndexPriorityQueue.swift in Sources */,
@@ -550,7 +547,6 @@
 				AE22CFB9260ABF7600B21C69 /* AdjacencyMatrix.swift in Sources */,
 				AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */,
 				AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */,
-				AEF751C0260E5E1700386123 /* SushiReview.swift in Sources */,
 				AE4BA9E725F82094000F8948 /* main.swift in Sources */,
 				AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */,
 				AE51B6FD260672CB0063F936 /* SubstringAlgorithm.swift in Sources */,
