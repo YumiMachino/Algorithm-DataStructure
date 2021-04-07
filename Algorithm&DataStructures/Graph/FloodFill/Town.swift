@@ -12,7 +12,8 @@ func town() {
     let x: Int
     let y: Int
   }
-  
+    
+  //// 4 directions
   let dx = [0, 0, 1, -1]
   let dy = [1, -1, 0, 0]
   
