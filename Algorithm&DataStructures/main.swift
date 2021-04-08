@@ -83,4 +83,5 @@ import Foundation
 
 //temp()
 //sushiReview()
-tomatoFarm() 
+//tomatoFarm()
+print(canFinish(4, [[1,0],[2,1], [2,3], [3,2]]))

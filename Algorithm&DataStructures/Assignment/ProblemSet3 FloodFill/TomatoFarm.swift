@@ -63,10 +63,13 @@ func tomatoFarm() {
                 let ny = y + dy[i]
                 /// check the bounds
                 if nx >= 0 && nx < n && ny >= 0 && ny < m {
+                    /// original square is 1
                     if (farmMap[nx][ny] == 1 && ripedMap[nx][ny] == 0) {
-                        ripedMap[nx][ny] = id + 1
+                        ripedMap[nx][ny] = id
                         bfs(square: Square(x: nx, y: ny), id: id)
-                    } else if (farmMap[nx][ny] == 0 && ripedMap[nx][ny] == 0) {
+                    }
+                    /// both 0 -> enter 1
+                    else if (farmMap[nx][ny] == 0 && ripedMap[nx][ny] == 0) {
                         ripedMap[nx][ny] = id + 1
                         bfs(square: Square(x: nx, y: ny), id: id + count)
                     }

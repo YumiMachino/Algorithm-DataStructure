@@ -39,6 +39,8 @@
 		AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B62600117400532A04 /* Bag_lecture.swift */; };
 		AEB519BA260011D500532A04 /* Queue_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B9260011D500532A04 /* Queue_.swift */; };
 		AEB519BD260011DC00532A04 /* Stack_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519BC260011DC00532A04 /* Stack_.swift */; };
+		AEB6AB57261E71B50070E14B /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6AB56261E71B50070E14B /* CourseSchedule.swift */; };
+		AEB6AB5B261E931C0070E14B /* TopologicalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6AB5A261E931C0070E14B /* TopologicalSort.swift */; };
 		AEE0BC6E26041C13009CFD5A /* Who'sMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +165,8 @@
 		AEB519B62600117400532A04 /* Bag_lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_lecture.swift; sourceTree = "<group>"; };
 		AEB519B9260011D500532A04 /* Queue_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_.swift; sourceTree = "<group>"; };
 		AEB519BC260011DC00532A04 /* Stack_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_.swift; sourceTree = "<group>"; };
+		AEB6AB56261E71B50070E14B /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
+		AEB6AB5A261E931C0070E14B /* TopologicalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSort.swift; sourceTree = "<group>"; };
 		AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Who'sMyParent.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -281,7 +285,6 @@
 			children = (
 				AEE0BC6B26041BD8009CFD5A /* Assignment */,
 				AE4D5AB5261420F50090E7C8 /* Graph */,
-				AE22CFAD260ABF6600B21C69 /* Examples */,
 				AE41CDE82603F94100BF3663 /* DataStrcture2 */,
 				AE139BEE26029B3B0044822A /* Trees */,
 				AE55F1FA25FC0EBF009E6D06 /* SearchingSorting */,
@@ -315,6 +318,8 @@
 		AE4D5AB5261420F50090E7C8 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				AE22CFAD260ABF6600B21C69 /* Examples */,
+				AEB6AB59261E92C50070E14B /* TopologicalSort */,
 				AE4D5AB6261420FE0090E7C8 /* FloodFill */,
 			);
 			path = Graph;
@@ -420,6 +425,22 @@
 			path = BagStackQueue;
 			sourceTree = "<group>";
 		};
+		AEB6AB55261E71880070E14B /* DAG TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6AB56261E71B50070E14B /* CourseSchedule.swift */,
+			);
+			path = "DAG TopologicalSort";
+			sourceTree = "<group>";
+		};
+		AEB6AB59261E92C50070E14B /* TopologicalSort */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6AB5A261E931C0070E14B /* TopologicalSort.swift */,
+			);
+			path = TopologicalSort;
+			sourceTree = "<group>";
+		};
 		AEBFF62B261D2A0F00336538 /* ProblemSet3 FloodFill */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +453,7 @@
 		AEE0BC6B26041BD8009CFD5A /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				AEB6AB55261E71880070E14B /* DAG TopologicalSort */,
 				AEBFF62B261D2A0F00336538 /* ProblemSet3 FloodFill */,
 				AEF751BE260E5E0000386123 /* GraphTreeAssignmentII */,
 				AE22CFBB260ACA5300B21C69 /* LCATestCases */,
@@ -524,6 +546,7 @@
 				AE22CFB4260ABF7600B21C69 /* bipartite.swift in Sources */,
 				AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */,
 				AE5C7ABD2603C84C00476E62 /* Stack.swift in Sources */,
+				AEB6AB5B261E931C0070E14B /* TopologicalSort.swift in Sources */,
 				AE22CFA1260A623700B21C69 /* LCA.swift in Sources */,
 				AE22CFB7260ABF7600B21C69 /* BFS.swift in Sources */,
 				AEB519BA260011D500532A04 /* Queue_.swift in Sources */,
@@ -550,6 +573,7 @@
 				AE4BA9E725F82094000F8948 /* main.swift in Sources */,
 				AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */,
 				AE51B6FD260672CB0063F936 /* SubstringAlgorithm.swift in Sources */,
+				AEB6AB57261E71B50070E14B /* CourseSchedule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -60,7 +60,7 @@ func Bridge() {
                 let ny = y + dy[i]
                 /// check the  bounds
                 if nx >= 0 && nx < n && ny >= 0 && ny < n {
-                    if (mapView[nx][ny] == 0 && processedMap[nx][ny] == 0) {
+                    if (mapView[nx][ny] == 1 && processedMap[nx][ny] == 0) {
                         q.enqueue(item: Map(x: nx, y: ny))
                         //  this id has to be incremented
                         processedMap[nx][ny] = id + count
