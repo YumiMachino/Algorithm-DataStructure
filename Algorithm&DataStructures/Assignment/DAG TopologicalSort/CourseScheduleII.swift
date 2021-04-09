@@ -39,6 +39,7 @@ func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
             indegree[v] -= 1
             if indegree[v] == 0 {
                 q.enqueue(item: v)
+                print("v", v)
             }
         }
     }

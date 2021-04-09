@@ -18,6 +18,7 @@
 		AE22CFB9260ABF7600B21C69 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22CFB3260ABF7600B21C69 /* AdjacencyMatrix.swift */; };
 		AE41CDEA2603F94E00BF3663 /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41CDE92603F94E00BF3663 /* IndexPriorityQueue.swift */; };
 		AE4B3F62261F8FD8003839FA /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F61261F8FD8003839FA /* CourseScheduleII.swift */; };
+		AE4B3F66261FACEE003839FA /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F65261FACEE003839FA /* UF.swift */; };
 		AE4BA9E725F82094000F8948 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9E625F82094000F8948 /* main.swift */; };
 		AE4BA9F025F82106000F8948 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9EF25F82106000F8948 /* Recursion.swift */; };
 		AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9F425F86A7D000F8948 /* String+DPStringTool.swift */; };
@@ -89,6 +90,7 @@
 		AE22CFCF260ACA7000B21C69 /* lca10000.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = lca10000.out; sourceTree = "<group>"; };
 		AE41CDE92603F94E00BF3663 /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
 		AE4B3F61261F8FD8003839FA /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
+		AE4B3F65261FACEE003839FA /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		AE4BA9E325F82094000F8948 /* Algorithm&DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm&DataStructures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4BA9E625F82094000F8948 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AE4BA9EF25F82106000F8948 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
@@ -263,6 +265,14 @@
 				AE22CFA4260A994F00B21C69 /* BasicGraph.swift */,
 			);
 			path = DataStrcture2;
+			sourceTree = "<group>";
+		};
+		AE4B3F64261FACE3003839FA /* UnionFind */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B3F65261FACEE003839FA /* UF.swift */,
+			);
+			path = UnionFind;
 			sourceTree = "<group>";
 		};
 		AE4BA9DA25F82094000F8948 = {
@@ -456,6 +466,7 @@
 		AEE0BC6B26041BD8009CFD5A /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				AE4B3F64261FACE3003839FA /* UnionFind */,
 				AEB6AB55261E71880070E14B /* DAG TopologicalSort */,
 				AEBFF62B261D2A0F00336538 /* ProblemSet3 FloodFill */,
 				AEF751BE260E5E0000386123 /* GraphTreeAssignmentII */,
@@ -563,6 +574,7 @@
 				AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */,
 				AE5C7AB02603C7D500476E62 /* TreeTraversal.swift in Sources */,
 				AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */,
+				AE4B3F66261FACEE003839FA /* UF.swift in Sources */,
 				AE4B3F62261F8FD8003839FA /* CourseScheduleII.swift in Sources */,
 				AEE0BC6E26041C13009CFD5A /* Who'sMyParent.swift in Sources */,
 				AE22CFA5260A994F00B21C69 /* BasicGraph.swift in Sources */,
