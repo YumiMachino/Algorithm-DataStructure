@@ -19,6 +19,7 @@
 		AE41CDEA2603F94E00BF3663 /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41CDE92603F94E00BF3663 /* IndexPriorityQueue.swift */; };
 		AE4B3F62261F8FD8003839FA /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F61261F8FD8003839FA /* CourseScheduleII.swift */; };
 		AE4B3F66261FACEE003839FA /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F65261FACEE003839FA /* UF.swift */; };
+		AE4B3F6B262007B9003839FA /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */; };
 		AE4BA9E725F82094000F8948 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9E625F82094000F8948 /* main.swift */; };
 		AE4BA9F025F82106000F8948 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9EF25F82106000F8948 /* Recursion.swift */; };
 		AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9F425F86A7D000F8948 /* String+DPStringTool.swift */; };
@@ -32,6 +33,7 @@
 		AE5C7ABD2603C84C00476E62 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C7ABC2603C84C00476E62 /* Stack.swift */; };
 		AE60933C25FAC5AB00C2D231 /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60933B25FAC5AB00C2D231 /* Backtracking.swift */; };
 		AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE617053260D6A8C00044F16 /* repeatingSequence.swift */; };
+		AE63F4C726212D1A00F7F1D3 /* UF sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F4C626212D1A00F7F1D3 /* UF sol.swift */; };
 		AE85B77E261669CC00B4C1A3 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B77D261669CC00B4C1A3 /* TomatoFarm.swift */; };
 		AE85B7822616B57800B4C1A3 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B7812616B57800B4C1A3 /* Bridges.swift */; };
 		AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */; };
@@ -91,6 +93,7 @@
 		AE41CDE92603F94E00BF3663 /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
 		AE4B3F61261F8FD8003839FA /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		AE4B3F65261FACEE003839FA /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
+		AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
 		AE4BA9E325F82094000F8948 /* Algorithm&DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm&DataStructures"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4BA9E625F82094000F8948 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AE4BA9EF25F82106000F8948 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
@@ -106,6 +109,7 @@
 		AE5C7ABC2603C84C00476E62 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		AE60933B25FAC5AB00C2D231 /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
 		AE617053260D6A8C00044F16 /* repeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatingSequence.swift; sourceTree = "<group>"; };
+		AE63F4C626212D1A00F7F1D3 /* UF sol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UF sol.swift"; sourceTree = "<group>"; };
 		AE85B77D261669CC00B4C1A3 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
 		AE85B7812616B57800B4C1A3 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReview2.swift; sourceTree = "<group>"; };
@@ -271,8 +275,17 @@
 			isa = PBXGroup;
 			children = (
 				AE4B3F65261FACEE003839FA /* UF.swift */,
+				AE63F4C626212D1A00F7F1D3 /* UF sol.swift */,
 			);
 			path = UnionFind;
+			sourceTree = "<group>";
+		};
+		AE4B3F68261FEAA0003839FA /* Greedy Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */,
+			);
+			path = "Greedy Algorithm";
 			sourceTree = "<group>";
 		};
 		AE4BA9DA25F82094000F8948 = {
@@ -466,6 +479,7 @@
 		AEE0BC6B26041BD8009CFD5A /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				AE4B3F68261FEAA0003839FA /* Greedy Algorithm */,
 				AE4B3F64261FACE3003839FA /* UnionFind */,
 				AEB6AB55261E71880070E14B /* DAG TopologicalSort */,
 				AEBFF62B261D2A0F00336538 /* ProblemSet3 FloodFill */,
@@ -564,10 +578,12 @@
 				AE22CFA1260A623700B21C69 /* LCA.swift in Sources */,
 				AE22CFB7260ABF7600B21C69 /* BFS.swift in Sources */,
 				AEB519BA260011D500532A04 /* Queue_.swift in Sources */,
+				AE4B3F6B262007B9003839FA /* TwoCityScheduling.swift in Sources */,
 				AE85B7822616B57800B4C1A3 /* Bridges.swift in Sources */,
 				AEB519BD260011DC00532A04 /* Stack_.swift in Sources */,
 				AE4BA9F025F82106000F8948 /* Recursion.swift in Sources */,
 				AE9CF8D025FEDABF00E675C5 /* Sorting.swift in Sources */,
+				AE63F4C726212D1A00F7F1D3 /* UF sol.swift in Sources */,
 				AE4D5AB8261421280090E7C8 /* Town.swift in Sources */,
 				AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */,
 				AE22CFB5260ABF7600B21C69 /* AdjacencyList.swift in Sources */,

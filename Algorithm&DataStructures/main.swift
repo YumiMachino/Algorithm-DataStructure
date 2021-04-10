@@ -84,5 +84,10 @@ import Foundation
 //temp()
 //sushiReview()
 //tomatoFarm()
-//print(canFinish(4, [[1,0],[2,1],[3,2],[2,3]]))
+//print(canFinish(4, [[1,0],[2,1],[3,2],[2,3]]))R
 //print(findOrder(4, [[1,0],[2,0],[3,1],[3,2]]))
+twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]])
+
+
+
+
