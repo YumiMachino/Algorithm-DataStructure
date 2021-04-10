@@ -10,34 +10,28 @@ import Foundation
 // LeetCode 621 Task Scheduler
 
 func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
-    // build frequency map
-    var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-    var freq = [Int](repeating: 0, count: 26)
-    var max = 0
+    /// count frequency of each letter
+    let letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+    var freq = [Int](repeating: 0, count: letters.count)
+    var highestFreq = 0
     var maxCount = 0
     var totalInterval = 0
     for  i in 0..<tasks.count {
         for j in 0..<letters.count {
             if String(tasks[i]) == letters[j] {
                 freq[j] += 1
-                if freq[j] > max {
-                    max = freq[j]
+                if freq[j] > highestFreq {
+                    highestFreq = freq[j]
                 }
             }
         }
     }
-    var maxCountArr = freq.filter { $0 == max}
-    maxCount = maxCountArr.count
+    maxCount = (freq.filter { $0 == highestFreq}).count
     print("freq:", freq)
-    print("max:", max)
+    print("max:", highestFreq)
     print("num with max:", maxCount)
-    
-    var blankSequence = max - 1
-    var blancLength = n - (maxCount - 1)
-    var emptySpace = blankSequence * blancLength
-    
-    // check the lest of the char without max -> put them in the empty spaces
-    
-    
+        
+    totalInterval = (highestFreq - 1) * (n + 1) + maxCount
+    print(totalInterval)
     return 1
 }

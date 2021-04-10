@@ -88,6 +88,6 @@ import Foundation
 //print(findOrder(4, [[1,0],[2,0],[3,1],[3,2]]))
 //twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]])
 
-leastInterval(["A","A","A","B","B","B"], 2)
+leastInterval(["A","A","A","A","A","A","B","C","D","E","F","G"], 2)
 
 
