@@ -34,6 +34,7 @@
 		AE60933C25FAC5AB00C2D231 /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60933B25FAC5AB00C2D231 /* Backtracking.swift */; };
 		AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE617053260D6A8C00044F16 /* repeatingSequence.swift */; };
 		AE63F4C726212D1A00F7F1D3 /* UF sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F4C626212D1A00F7F1D3 /* UF sol.swift */; };
+		AE63F4CA262140EE00F7F1D3 /* TaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63F4C9262140ED00F7F1D3 /* TaskScheduler.swift */; };
 		AE85B77E261669CC00B4C1A3 /* TomatoFarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B77D261669CC00B4C1A3 /* TomatoFarm.swift */; };
 		AE85B7822616B57800B4C1A3 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B7812616B57800B4C1A3 /* Bridges.swift */; };
 		AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */; };
@@ -110,6 +111,7 @@
 		AE60933B25FAC5AB00C2D231 /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
 		AE617053260D6A8C00044F16 /* repeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatingSequence.swift; sourceTree = "<group>"; };
 		AE63F4C626212D1A00F7F1D3 /* UF sol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UF sol.swift"; sourceTree = "<group>"; };
+		AE63F4C9262140ED00F7F1D3 /* TaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskScheduler.swift; sourceTree = "<group>"; };
 		AE85B77D261669CC00B4C1A3 /* TomatoFarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoFarm.swift; sourceTree = "<group>"; };
 		AE85B7812616B57800B4C1A3 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiReview2.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */,
+				AE63F4C9262140ED00F7F1D3 /* TaskScheduler.swift */,
 			);
 			path = "Greedy Algorithm";
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 				AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */,
 				AE5C7ABD2603C84C00476E62 /* Stack.swift in Sources */,
 				AEB6AB5B261E931C0070E14B /* TopologicalSort.swift in Sources */,
+				AE63F4CA262140EE00F7F1D3 /* TaskScheduler.swift in Sources */,
 				AE22CFA1260A623700B21C69 /* LCA.swift in Sources */,
 				AE22CFB7260ABF7600B21C69 /* BFS.swift in Sources */,
 				AEB519BA260011D500532A04 /* Queue_.swift in Sources */,
