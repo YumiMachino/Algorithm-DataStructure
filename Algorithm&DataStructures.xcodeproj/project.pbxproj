@@ -25,6 +25,7 @@
 		AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9F425F86A7D000F8948 /* String+DPStringTool.swift */; };
 		AE4BA9FB25F87558000F8948 /* Recursion_assignment1_evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9FA25F87558000F8948 /* Recursion_assignment1_evaluate.swift */; };
 		AE4D5AB8261421280090E7C8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D5AB7261421280090E7C8 /* Town.swift */; };
+		AE4F002E2622A79700E7D3A2 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F002D2622A79700E7D3A2 /* GasStation.swift */; };
 		AE51B6FD260672CB0063F936 /* SubstringAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51B6FC260672CB0063F936 /* SubstringAlgorithm.swift */; };
 		AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AF7BF25F97A220091AD7B /* ExhaustiveSearch.swift */; };
 		AE5C7AB02603C7D500476E62 /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C7AAF2603C7D500476E62 /* TreeTraversal.swift */; };
@@ -102,6 +103,7 @@
 		AE4BA9F825F86FAF000F8948 /* provinces.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = provinces.txt; sourceTree = SOURCE_ROOT; };
 		AE4BA9FA25F87558000F8948 /* Recursion_assignment1_evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion_assignment1_evaluate.swift; sourceTree = "<group>"; };
 		AE4D5AB7261421280090E7C8 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		AE4F002D2622A79700E7D3A2 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		AE51B6FC260672CB0063F936 /* SubstringAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstringAlgorithm.swift; sourceTree = "<group>"; };
 		AE5AF7BF25F97A220091AD7B /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 		AE5C7AAF2603C7D500476E62 /* TreeTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeTraversal.swift; path = ../../../../../Desktop/TreeTraversal.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 			children = (
 				AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */,
 				AE63F4C9262140ED00F7F1D3 /* TaskScheduler.swift */,
+				AE4F002D2622A79700E7D3A2 /* GasStation.swift */,
 			);
 			path = "Greedy Algorithm";
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 				AE22CFAA260ABD9400B21C69 /* cyclicPermutation.swift in Sources */,
 				AE4BA9FB25F87558000F8948 /* Recursion_assignment1_evaluate.swift in Sources */,
 				AE60933C25FAC5AB00C2D231 /* Backtracking.swift in Sources */,
+				AE4F002E2622A79700E7D3A2 /* GasStation.swift in Sources */,
 				AE22CFB8260ABF7600B21C69 /* DFS.swift in Sources */,
 				AE22CFB4260ABF7600B21C69 /* bipartite.swift in Sources */,
 				AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */,
