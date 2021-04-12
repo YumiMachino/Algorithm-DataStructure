@@ -93,4 +93,7 @@ import Foundation
 //leastInterval(["A","A","A","B","B","B"], 0)
 //canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2])
 //print(canCompleteCircuit([1,2,3,4,5],[4,4,1,5,1]))
-print(canCompleteCircuit([5,1,2,3,4],[4,4,1,5,1]))
+//print(canCompleteCircuit([5,1,2,3,4],[4,4,1,5,1]))
+print(partitionLabels("ababcbacadefegdehijhklij"))
+//partitionLabels("abcde")
+//print(partitionLabels("qiejxqfnqceocmy"))

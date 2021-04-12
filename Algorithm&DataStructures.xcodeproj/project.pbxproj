@@ -27,6 +27,7 @@
 		AE4D5AB8261421280090E7C8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D5AB7261421280090E7C8 /* Town.swift */; };
 		AE4F002E2622A79700E7D3A2 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4F002D2622A79700E7D3A2 /* GasStation.swift */; };
 		AE51B6FD260672CB0063F936 /* SubstringAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51B6FC260672CB0063F936 /* SubstringAlgorithm.swift */; };
+		AE5324172623BE33009FD7A6 /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5324162623BE33009FD7A6 /* PartitionLabels.swift */; };
 		AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5AF7BF25F97A220091AD7B /* ExhaustiveSearch.swift */; };
 		AE5C7AB02603C7D500476E62 /* TreeTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C7AAF2603C7D500476E62 /* TreeTraversal.swift */; };
 		AE5C7AB72603C84000476E62 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5C7AB62603C84000476E62 /* Bag.swift */; };
@@ -105,6 +106,7 @@
 		AE4D5AB7261421280090E7C8 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		AE4F002D2622A79700E7D3A2 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
 		AE51B6FC260672CB0063F936 /* SubstringAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstringAlgorithm.swift; sourceTree = "<group>"; };
+		AE5324162623BE33009FD7A6 /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
 		AE5AF7BF25F97A220091AD7B /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 		AE5C7AAF2603C7D500476E62 /* TreeTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreeTraversal.swift; path = ../../../../../Desktop/TreeTraversal.swift; sourceTree = "<group>"; };
 		AE5C7AB62603C84000476E62 /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */,
 				AE63F4C9262140ED00F7F1D3 /* TaskScheduler.swift */,
 				AE4F002D2622A79700E7D3A2 /* GasStation.swift */,
+				AE5324162623BE33009FD7A6 /* PartitionLabels.swift */,
 			);
 			path = "Greedy Algorithm";
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 				AE22CFB9260ABF7600B21C69 /* AdjacencyMatrix.swift in Sources */,
 				AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */,
 				AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */,
+				AE5324172623BE33009FD7A6 /* PartitionLabels.swift in Sources */,
 				AE4BA9E725F82094000F8948 /* main.swift in Sources */,
 				AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */,
 				AE51B6FD260672CB0063F936 /* SubstringAlgorithm.swift in Sources */,

@@ -28,15 +28,14 @@ func leastInterval(_ tasks: [Character], _ n: Int) -> Int {
     }
     maxCount = (freq.filter { $0 == highestFreq}).count
     if n == 0 {
-        var counts = (freq.filter { $0 != 0}).count
+        let counts = (freq.filter { $0 != 0}).count
         totalInterval = highestFreq  * maxCount + (counts - maxCount)
     } else if (maxCount - 1) >= n {
         let elem = maxCount - n
         totalInterval = (highestFreq - 1) * (n + 1 + elem) + maxCount
     } else {
-        var letterCounts = (freq.filter { $0 != 0 && $0 != highestFreq}).count
+        let letterCounts = (freq.filter { $0 != 0 && $0 != highestFreq}).count
         totalInterval = (highestFreq - 1) * (n + 1) + maxCount
     }
-    print(totalInterval)
     return totalInterval
 }
