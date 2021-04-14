@@ -94,6 +94,17 @@ import Foundation
 //canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2])
 //print(canCompleteCircuit([1,2,3,4,5],[4,4,1,5,1]))
 //print(canCompleteCircuit([5,1,2,3,4],[4,4,1,5,1]))
-print(partitionLabels("ababcbacadefegdehijhklij"))
+//print(partitionLabels("ababcbacadefegdehijhklij"))
 //partitionLabels("abcde")
 //print(partitionLabels("qiejxqfnqceocmy"))
+
+/// needs to be adj list as a parameter
+//var graph = [[(v: 0,w: 0)], [(v: 1,w:6)], [(v: 0,w: 7)], [(v:0,w: 5)], [(v:0,w:9)], [(v:1,w:-2)], [(v:3,w:2)], [(v:4,w:1)],[(v:3,w:3)], [(v:1,w:4)], [(v:1,w:3)], [(v:4,w:6)]]
+//
+////var mst = MST()
+//let minimumCost = MST().kruskalMST(graph)
+//print(minimumCost.0)
+//print(minimumCost.1)
+
+solution()
+

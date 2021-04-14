@@ -6,19 +6,19 @@
 //  Copyright © 2020 Derrick Park. All rights reserved.
 //
 
-//import Foundation
-//
-///// The UF struct represents a union-find (disjoint sets) data structure
-///// It supports **union** and **find** operations, along with methods for
-///// determining whether two nodes are in the same component and the total
-///// number of components.
-///// This implementation uses weighted quick union (by size or rank) with
-///// full path compression.
-///// Initializing a data structure with **n** nodes takes linear time.
-///// Afterwards, **union**, **find**, and **connected** take logarithmic time
-///// (in the worst case) and **count** takes constant time.
-///// Moreover, the amortized time per **union**, **find**, and **connected** operation
-///// has inverse Ackermann complexity (which is practically < 5 for 2^(2^(2^(2^16))) - undefined number).
+import Foundation
+
+/// The UF struct represents a union-find (disjoint sets) data structure
+/// It supports **union** and **find** operations, along with methods for
+/// determining whether two nodes are in the same component and the total
+/// number of components.
+/// This implementation uses weighted quick union (by size or rank) with
+/// full path compression.
+/// Initializing a data structure with **n** nodes takes linear time.
+/// Afterwards, **union**, **find**, and **connected** take logarithmic time
+/// (in the worst case) and **count** takes constant time.
+/// Moreover, the amortized time per **union**, **find**, and **connected** operation
+/// has inverse Ackermann complexity (which is practically < 5 for 2^(2^(2^(2^16))) - undefined number).
 //public struct UFOrig {
 //    /// parent[i] = parent of i
 //    private var parent: [Int]

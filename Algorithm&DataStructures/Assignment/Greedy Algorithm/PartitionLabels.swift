@@ -16,6 +16,7 @@ func partitionLabels(_ S: String) -> [Int] {
     var lastIndexs = [Int](repeating: 0, count: 26)
     
     let asciiValues = S.compactMap { $0.asciiValue }
+    print(asciiValues)
     let base = Character("a").asciiValue!
     /// store last index of each letter
     for i in 0..<asciiValues.count {
@@ -44,7 +45,7 @@ func partitionLabels(_ S: String) -> [Int] {
         partitionLength.append(last + 1)
         i = last + 1
     }
-   
+ 
     var result = partitionLength
     for k in 0..<partitionLength.count {
         if k != 0 {
