@@ -46,6 +46,7 @@
 		AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE85B7842616C57D00B4C1A3 /* SushiReview2.swift */; };
 		AE9CF8D025FEDABF00E675C5 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */; };
 		AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CF25FEDABF00E675C5 /* Searching.swift */; };
+		AE9F4DD926275A9A00A0492A /* DijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9F4DD826275A9A00A0492A /* DijkstraArray.swift */; };
 		AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B225FFF74900532A04 /* Bag_ori.swift */; };
 		AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B62600117400532A04 /* Bag_lecture.swift */; };
 		AEB519BA260011D500532A04 /* Queue_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B9260011D500532A04 /* Queue_.swift */; };
@@ -290,6 +291,7 @@
 		AE9B5FA22613D84400564D75 /* sushisamp.2.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.2.out; sourceTree = "<group>"; };
 		AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		AE9CF8CF25FEDABF00E675C5 /* Searching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
+		AE9F4DD826275A9A00A0492A /* DijkstraArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraArray.swift; sourceTree = "<group>"; };
 		AEB519B225FFF74900532A04 /* Bag_ori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_ori.swift; sourceTree = "<group>"; };
 		AEB519B62600117400532A04 /* Bag_lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_lecture.swift; sourceTree = "<group>"; };
 		AEB519B9260011D500532A04 /* Queue_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_.swift; sourceTree = "<group>"; };
@@ -433,9 +435,9 @@
 		AE4BA9E525F82094000F8948 /* Algorithm&DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				AE4DA8A926263C43009428C1 /* ShortestPath */,
 				AEE0BC6B26041BD8009CFD5A /* Assignment */,
 				AEF698742624DD2200668316 /* MST.swift */,
+				AE4DA8A926263C43009428C1 /* ShortestPath */,
 				AE4D5AB5261420F50090E7C8 /* Graph */,
 				AE41CDE82603F94100BF3663 /* DataStrcture2 */,
 				AE139BEE26029B3B0044822A /* Trees */,
@@ -601,6 +603,7 @@
 		AE4DA8A926263C43009428C1 /* ShortestPath */ = {
 			isa = PBXGroup;
 			children = (
+				AE9F4DD826275A9A00A0492A /* DijkstraArray.swift */,
 				AE4DA8AA26263C69009428C1 /* BellmanFord.swift */,
 			);
 			path = ShortestPath;
@@ -852,6 +855,7 @@
 				AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */,
 				AE22CFB5260ABF7600B21C69 /* AdjacencyList.swift in Sources */,
 				AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */,
+				AE9F4DD926275A9A00A0492A /* DijkstraArray.swift in Sources */,
 				AE5C7AB02603C7D500476E62 /* TreeTraversal.swift in Sources */,
 				AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */,
 				AE4B3F66261FACEE003839FA /* UF.swift in Sources */,
