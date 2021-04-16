@@ -14,8 +14,20 @@ func solutionRev()  {
     var edges = result.1
     var inactive = result.2
     /// Krusukal's Algorithm
-    /// - 1. Sort
+    /// - 1. Sort .... if same cost, prioritize the one active (inactiveList)
     edges.sort { $0.w < $1.w }
+    /// bubble sort
+    print("edges:", edges)
+    print("inactive: ", inactive)
+    
+    for i in 0..<edges.count {
+        if i < edges.count-1 && inactive.contains(edges[i]) && !inactive.contains(edges[i + 1]) {
+            edges.swapAt(i, i + 1)
+        }
+    }
+    
+    print("sorted and ordered: ", edges)
+    
     /// - 2. Pick the smallest edge while avoiding cycles (use UF to detect a cycle)
     var mstResult = kruskalMST(edges)
 //    var minimumCost = mstResult.0
@@ -51,6 +63,7 @@ extension Edge: Comparable {
 extension Edge: Hashable {}
 
 
+
 func inputHander() -> (Int, [Edge],[Edge]){
     // create Edge list bt input
     let firstLine = readLine()!.split(separator: " ").map { Int($0)! }
@@ -73,7 +86,7 @@ func inputHander() -> (Int, [Edge],[Edge]){
     return (n,edgeList, inactiveList)
 }
 
-/// return minimum cost
+/// Sort: return minimum cost
 func kruskalMST(_ sortedEdgeList: [Edge]) -> (Int, [Edge]) {
     var pickedEdges = [Edge]()
     var unionFind = UnionFind(sortedEdgeList.count)
@@ -84,9 +97,6 @@ func kruskalMST(_ sortedEdgeList: [Edge]) -> (Int, [Edge]) {
     }
     return (pickedEdges.map{ $0.w }.reduce(0, +), pickedEdges)
 }
-
-
-
 
 
 public struct UnionFind {
