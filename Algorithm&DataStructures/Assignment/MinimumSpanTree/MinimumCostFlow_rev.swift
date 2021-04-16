@@ -12,15 +12,26 @@ func solutionRev()  {
     let result = inputHander()
     let n = result.0
     var edges = result.1
-
+    var inactive = result.2
     /// Krusukal's Algorithm
     /// - 1. Sort
     edges.sort { $0.w < $1.w }
     /// - 2. Pick the smallest edge while avoiding cycles (use UF to detect a cycle)
-    print("sorted: ", edges)
-    print(kruskalMST(edges))
+    var mstResult = kruskalMST(edges)
+//    var minimumCost = mstResult.0
     
-    
+    /// check inactive
+    var picked = mstResult.1
+    var minimumDays = 0
+ 
+    for edge in picked {
+        for pipe in inactive {
+            if (edge.v, edge.w) == (pipe.v, pipe.w) {
+                minimumDays += 1
+            }
+        }
+    }
+    print(minimumDays)
     
 }
 
@@ -40,27 +51,30 @@ extension Edge: Comparable {
 extension Edge: Hashable {}
 
 
-func inputHander() -> (Int, [Edge]){
+func inputHander() -> (Int, [Edge],[Edge]){
     // create Edge list bt input
     let firstLine = readLine()!.split(separator: " ").map { Int($0)! }
     let n = firstLine[0]
     let m = firstLine[1]
     let d = firstLine[2]
     var edgeList = [Edge]()
+    var inactiveList = [Edge]()
     
     for i in 0..<m {
         let edge = readLine()!.split(separator: " ")
         let u = Int(edge[0])!
         let v = Int(edge[1])!
         let w = Int(edge[2])!
-        
+        if i >= n - 1 {
+            inactiveList.append(Edge(u: u, v: v, w: w))
+        }
         edgeList.append(Edge(u: u, v: v, w: w))
     }
-    return (n,edgeList)
+    return (n,edgeList, inactiveList)
 }
 
 /// return minimum cost
-func kruskalMST(_ sortedEdgeList: [Edge]) -> Int {
+func kruskalMST(_ sortedEdgeList: [Edge]) -> (Int, [Edge]) {
     var pickedEdges = [Edge]()
     var unionFind = UnionFind(sortedEdgeList.count)
     for edge in sortedEdgeList {
@@ -68,7 +82,7 @@ func kruskalMST(_ sortedEdgeList: [Edge]) -> Int {
         unionFind.union(edge.u, edge.v)
         pickedEdges.append(edge)
     }
-    return (pickedEdges.map{ $0.w }.reduce(0, +))
+    return (pickedEdges.map{ $0.w }.reduce(0, +), pickedEdges)
 }
 
 
@@ -101,8 +115,6 @@ public struct UnionFind {
   /// - Returns: the canonical element of the set containing `p`
   public mutating func find(_ p: Int) -> Int {
     var root = p
-    print("root: ", root)
-    print("parent: ", parent[root])
     while root != parent[root] { // find the root
       root = parent[root]
     }
