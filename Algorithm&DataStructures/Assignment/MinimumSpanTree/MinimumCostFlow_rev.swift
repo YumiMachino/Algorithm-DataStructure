@@ -11,8 +11,9 @@ func solutionRev()  {
     
     let result = inputHander()
     let n = result.0
-    var edges = result.1
-    var inactive = result.2
+    let d = result.1
+    var edges = result.2
+    var inactive = result.3
     /// Krusukal's Algorithm
     /// - 1. Sort .... if same cost, prioritize the one active (inactiveList)
     edges.sort { $0.w < $1.w }
@@ -25,9 +26,8 @@ func solutionRev()  {
         }
     }
 
-    
     /// - 2. Pick the smallest edge while avoiding cycles (use UF to detect a cycle)
-    var mstResult = kruskalMST(edges)
+    var mstResult = kruskalMSTHelper(edges, n, d)
 //    var minimumCost = mstResult.0
     
     /// check inactive
@@ -62,7 +62,7 @@ extension Edge: Hashable {}
 
 
 
-func inputHander() -> (Int, [Edge],[Edge]){
+func inputHander() -> (Int,Int, [Edge],[Edge]){
     // create Edge list bt input
     let firstLine = readLine()!.split(separator: " ").map { Int($0)! }
     let n = firstLine[0]
@@ -82,18 +82,49 @@ func inputHander() -> (Int, [Edge],[Edge]){
         }
         edgeList.append(Edge(u: u, v: v, w: w))
     }
-    return (n,edgeList, inactiveList)
+    return (n,d,edgeList, inactiveList)
 }
 
-/// Sort: return minimum cost
-func kruskalMST(_ sortedEdgeList: [Edge]) -> (Int, [Edge]) {
+/// Sort: return minimum cost, check enhancer efficiency when picking up the last edge here
+func kruskalMSTHelper(_ sortedEdgeList: [Edge], _ n: Int, _ d: Int) -> (Int, [Edge]) {
+    var remain = sortedEdgeList
+    var sortedRemain = [Edge]()
     var pickedEdges = [Edge]()
     var unionFind = UnionFind(sortedEdgeList.count)
-    for edge in sortedEdgeList {
+    
+    for i in 0..<sortedEdgeList.count - 1 {
+        var edge = sortedEdgeList[i]
         if unionFind.connected(edge.u, edge.v) { continue }
         unionFind.union(edge.u, edge.v)
+        //last node: highest cost
+        if pickedEdges.count == n - 1 {
+            // 残りのやつ全部にuse enhancer, sort-> select minimum as last node
+            for rem in remain {
+                if edge.w > d {
+                    edge.w = edge.w - d
+                }
+            }
+        
+        }
         pickedEdges.append(edge)
+        remain.remove(at: i)
     }
+    
+    remain.sort { $0.w < $1.w }
+    pickedEdges.append(remain[0])
+    
+//    for edge in sortedEdgeList {
+//        if unionFind.connected(edge.u, edge.v) { continue }
+//        unionFind.union(edge.u, edge.v)
+//        //last node: highest cost
+//        if pickedEdges.count == n - 1 {
+//            // 残りのやつ全部にuse enhancer, sort-> select minimum as last node
+//
+//
+//        }
+//        pickedEdges.append(edge)
+//
+//    }
     return (pickedEdges.map{ $0.w }.reduce(0, +), pickedEdges)
 }
 
@@ -112,11 +143,12 @@ public struct UnionFind {
   /// - Parameter n: the number of elements
   public init(_ n: Int) {
     self.count = n
-    self.size = [Int](repeating: 1, count: n + 1)
-    self.parent = [Int](repeating: 0, count: n + 1)
-    for i in 0...n {
+    self.size = [Int](repeating: 1, count: n + 1 )
+    self.parent = [Int](repeating: 0, count: n + 1 )
+    for i in 0..<n {
       self.parent[i] = i
     }
+    print("uf: ", self)
   }
 
   /// Returns the canonical element(root) of the set containing element `p`.
@@ -124,6 +156,7 @@ public struct UnionFind {
   /// - Returns: the canonical element of the set containing `p`
   public mutating func find(_ p: Int) -> Int {
     var root = p
+    print(root, parent)
     while root != parent[root] { // find the root
       root = parent[root]
     }
