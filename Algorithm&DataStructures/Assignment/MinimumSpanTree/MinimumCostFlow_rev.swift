@@ -16,17 +16,15 @@ func solutionRev()  {
     /// Krusukal's Algorithm
     /// - 1. Sort .... if same cost, prioritize the one active (inactiveList)
     edges.sort { $0.w < $1.w }
-    /// bubble sort
-    print("edges:", edges)
-    print("inactive: ", inactive)
     
     for i in 0..<edges.count {
         if i < edges.count-1 && inactive.contains(edges[i]) && !inactive.contains(edges[i + 1]) {
-            edges.swapAt(i, i + 1)
+            if edges[i].w == edges[i + 1].w {
+                edges.swapAt(i, i + 1)
+            }
         }
     }
-    
-    print("sorted and ordered: ", edges)
+
     
     /// - 2. Pick the smallest edge while avoiding cycles (use UF to detect a cycle)
     var mstResult = kruskalMST(edges)
@@ -78,6 +76,7 @@ func inputHander() -> (Int, [Edge],[Edge]){
         let u = Int(edge[0])!
         let v = Int(edge[1])!
         let w = Int(edge[2])!
+        // fix
         if i >= n - 1 {
             inactiveList.append(Edge(u: u, v: v, w: w))
         }
