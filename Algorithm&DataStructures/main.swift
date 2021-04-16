@@ -106,5 +106,5 @@ import Foundation
 //print(minimumCost.0)
 //print(minimumCost.1)
 
-solution()
 
+solutionRev()

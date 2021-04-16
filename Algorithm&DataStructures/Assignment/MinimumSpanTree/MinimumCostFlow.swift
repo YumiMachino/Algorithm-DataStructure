@@ -92,8 +92,6 @@ public struct PriorityQueue<Key: Comparable & Hashable> {
     @inline(__always) private func right(of index: Int) -> Int {
       return 2 * index + 2
     }
-
-
 }
 
 
@@ -153,7 +151,6 @@ func solution() {
   
     print(adjList[1])
     print(adjList[1][0].v)
-    
     
     func helperPrimMST(_ graph: [[(v: Int, w: Int)]]) -> (Int, [ComparableEdge]) {
         let n = graph.count
@@ -230,8 +227,6 @@ func solution() {
 }
 
 // you can include as many helper functions as you want.
-
-
 
 func checkIfActive(_ edge: ComparableEdge, _ inactiveList: [[(v: Int, w: Int)]])-> Bool {
     print("check if this active: ", edge) // ComparableEdge(v: 2, w: 2)

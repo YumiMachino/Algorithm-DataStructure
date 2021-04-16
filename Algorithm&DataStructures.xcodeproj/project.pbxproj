@@ -47,6 +47,9 @@
 		AE9CF8D025FEDABF00E675C5 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */; };
 		AE9CF8D125FEDABF00E675C5 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8CF25FEDABF00E675C5 /* Searching.swift */; };
 		AE9F4DD926275A9A00A0492A /* DijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9F4DD826275A9A00A0492A /* DijkstraArray.swift */; };
+		AEA7CA222628FE2A004C64CE /* NetworkDelayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7CA212628FE2A004C64CE /* NetworkDelayTime.swift */; };
+		AEA7CA25262903CB004C64CE /* DijkstraPQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7CA24262903CB004C64CE /* DijkstraPQ.swift */; };
+		AEA7CA2826290DFF004C64CE /* MinimumCostFlow_rev.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7CA2726290DFF004C64CE /* MinimumCostFlow_rev.swift */; };
 		AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B225FFF74900532A04 /* Bag_ori.swift */; };
 		AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B62600117400532A04 /* Bag_lecture.swift */; };
 		AEB519BA260011D500532A04 /* Queue_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519B9260011D500532A04 /* Queue_.swift */; };
@@ -292,6 +295,9 @@
 		AE9CF8CE25FEDABF00E675C5 /* Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		AE9CF8CF25FEDABF00E675C5 /* Searching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		AE9F4DD826275A9A00A0492A /* DijkstraArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraArray.swift; sourceTree = "<group>"; };
+		AEA7CA212628FE2A004C64CE /* NetworkDelayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDelayTime.swift; sourceTree = "<group>"; };
+		AEA7CA24262903CB004C64CE /* DijkstraPQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraPQ.swift; sourceTree = "<group>"; };
+		AEA7CA2726290DFF004C64CE /* MinimumCostFlow_rev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow_rev.swift; sourceTree = "<group>"; };
 		AEB519B225FFF74900532A04 /* Bag_ori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_ori.swift; sourceTree = "<group>"; };
 		AEB519B62600117400532A04 /* Bag_lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag_lecture.swift; sourceTree = "<group>"; };
 		AEB519B9260011D500532A04 /* Queue_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue_.swift; sourceTree = "<group>"; };
@@ -603,6 +609,7 @@
 		AE4DA8A926263C43009428C1 /* ShortestPath */ = {
 			isa = PBXGroup;
 			children = (
+				AEA7CA24262903CB004C64CE /* DijkstraPQ.swift */,
 				AE9F4DD826275A9A00A0492A /* DijkstraArray.swift */,
 				AE4DA8AA26263C69009428C1 /* BellmanFord.swift */,
 			);
@@ -689,6 +696,14 @@
 			path = TestCases;
 			sourceTree = "<group>";
 		};
+		AEA7CA202628FE10004C64CE /* ShortestPaths */ = {
+			isa = PBXGroup;
+			children = (
+				AEA7CA212628FE2A004C64CE /* NetworkDelayTime.swift */,
+			);
+			path = ShortestPaths;
+			sourceTree = "<group>";
+		};
 		AEB519B52600115600532A04 /* BagStackQueue */ = {
 			isa = PBXGroup;
 			children = (
@@ -730,6 +745,7 @@
 		AEE0BC6B26041BD8009CFD5A /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				AEA7CA202628FE10004C64CE /* ShortestPaths */,
 				AEF6986F2624DAC300668316 /* MinimumSpanTree */,
 				AE4B3F68261FEAA0003839FA /* Greedy Algorithm */,
 				AE4B3F64261FACE3003839FA /* UnionFind */,
@@ -758,6 +774,7 @@
 			children = (
 				AE4DA83826262732009428C1 /* mcfTest */,
 				AE4DA83526262703009428C1 /* MinimumCostFlow.swift */,
+				AEA7CA2726290DFF004C64CE /* MinimumCostFlow_rev.swift */,
 			);
 			path = MinimumSpanTree;
 			sourceTree = "<group>";
@@ -831,6 +848,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE22CFAA260ABD9400B21C69 /* cyclicPermutation.swift in Sources */,
+				AEA7CA2826290DFF004C64CE /* MinimumCostFlow_rev.swift in Sources */,
 				AE4BA9FB25F87558000F8948 /* Recursion_assignment1_evaluate.swift in Sources */,
 				AE60933C25FAC5AB00C2D231 /* Backtracking.swift in Sources */,
 				AE4F002E2622A79700E7D3A2 /* GasStation.swift in Sources */,
@@ -852,6 +870,7 @@
 				AE9CF8D025FEDABF00E675C5 /* Sorting.swift in Sources */,
 				AE63F4C726212D1A00F7F1D3 /* UF sol.swift in Sources */,
 				AE4D5AB8261421280090E7C8 /* Town.swift in Sources */,
+				AEA7CA222628FE2A004C64CE /* NetworkDelayTime.swift in Sources */,
 				AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */,
 				AE22CFB5260ABF7600B21C69 /* AdjacencyList.swift in Sources */,
 				AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */,
@@ -873,6 +892,7 @@
 				AE22CFB9260ABF7600B21C69 /* AdjacencyMatrix.swift in Sources */,
 				AE617054260D6A8C00044F16 /* repeatingSequence.swift in Sources */,
 				AEB519B325FFF74900532A04 /* Bag_ori.swift in Sources */,
+				AEA7CA25262903CB004C64CE /* DijkstraPQ.swift in Sources */,
 				AE5324172623BE33009FD7A6 /* PartitionLabels.swift in Sources */,
 				AE4BA9E725F82094000F8948 /* main.swift in Sources */,
 				AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */,
