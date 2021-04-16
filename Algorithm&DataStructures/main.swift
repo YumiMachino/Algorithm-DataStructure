@@ -108,4 +108,5 @@ import Foundation
 
 
 solutionRev()
-
+//testInputHandler()
+//testHandler()

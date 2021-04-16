@@ -25,7 +25,6 @@
 		AE4BA9F525F86A7D000F8948 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9F425F86A7D000F8948 /* String+DPStringTool.swift */; };
 		AE4BA9FB25F87558000F8948 /* Recursion_assignment1_evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BA9FA25F87558000F8948 /* Recursion_assignment1_evaluate.swift */; };
 		AE4D5AB8261421280090E7C8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D5AB7261421280090E7C8 /* Town.swift */; };
-		AE4DA83626262703009428C1 /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DA83526262703009428C1 /* MinimumCostFlow.swift */; };
 		AE4DA8A426262E80009428C1 /* sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DA8A326262E80009428C1 /* sushi.swift */; };
 		AE4DA8A726262E87009428C1 /* SushiIterative.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DA8A626262E87009428C1 /* SushiIterative.swift */; };
 		AE4DA8AB26263C69009428C1 /* BellmanFord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4DA8AA26263C69009428C1 /* BellmanFord.swift */; };
@@ -113,7 +112,6 @@
 		AE4BA9F825F86FAF000F8948 /* provinces.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = provinces.txt; sourceTree = SOURCE_ROOT; };
 		AE4BA9FA25F87558000F8948 /* Recursion_assignment1_evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion_assignment1_evaluate.swift; sourceTree = "<group>"; };
 		AE4D5AB7261421280090E7C8 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
-		AE4DA83526262703009428C1 /* MinimumCostFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
 		AE4DA8392626275B009428C1 /* mcf.18.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = mcf.18.in; sourceTree = "<group>"; };
 		AE4DA83A2626275B009428C1 /* mcf.24.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = mcf.24.out; sourceTree = "<group>"; };
 		AE4DA83B2626275B009428C1 /* mcf.08.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = mcf.08.out; sourceTree = "<group>"; };
@@ -773,7 +771,6 @@
 			isa = PBXGroup;
 			children = (
 				AE4DA83826262732009428C1 /* mcfTest */,
-				AE4DA83526262703009428C1 /* MinimumCostFlow.swift */,
 				AEA7CA2726290DFF004C64CE /* MinimumCostFlow_rev.swift */,
 			);
 			path = MinimumSpanTree;
@@ -863,7 +860,6 @@
 				AEB519BA260011D500532A04 /* Queue_.swift in Sources */,
 				AE4B3F6B262007B9003839FA /* TwoCityScheduling.swift in Sources */,
 				AE85B7822616B57800B4C1A3 /* Bridges.swift in Sources */,
-				AE4DA83626262703009428C1 /* MinimumCostFlow.swift in Sources */,
 				AEB519BD260011DC00532A04 /* Stack_.swift in Sources */,
 				AE4DA8A426262E80009428C1 /* sushi.swift in Sources */,
 				AE4BA9F025F82106000F8948 /* Recursion.swift in Sources */,
