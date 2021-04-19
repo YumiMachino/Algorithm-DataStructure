@@ -17,6 +17,7 @@
 		AE22CFB8260ABF7600B21C69 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22CFB2260ABF7600B21C69 /* DFS.swift */; };
 		AE22CFB9260ABF7600B21C69 /* AdjacencyMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22CFB3260ABF7600B21C69 /* AdjacencyMatrix.swift */; };
 		AE41CDEA2603F94E00BF3663 /* IndexPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41CDE92603F94E00BF3663 /* IndexPriorityQueue.swift */; };
+		AE45E666262B711E00AA95A3 /* CheapestFlightsWithinKStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45E665262B711E00AA95A3 /* CheapestFlightsWithinKStops.swift */; };
 		AE4B3F62261F8FD8003839FA /* CourseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F61261F8FD8003839FA /* CourseScheduleII.swift */; };
 		AE4B3F66261FACEE003839FA /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F65261FACEE003839FA /* UF.swift */; };
 		AE4B3F6B262007B9003839FA /* TwoCityScheduling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */; };
@@ -55,6 +56,7 @@
 		AEB519BD260011DC00532A04 /* Stack_.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB519BC260011DC00532A04 /* Stack_.swift */; };
 		AEB6AB57261E71B50070E14B /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6AB56261E71B50070E14B /* CourseSchedule.swift */; };
 		AEB6AB5B261E931C0070E14B /* TopologicalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6AB5A261E931C0070E14B /* TopologicalSort.swift */; };
+		AEE03C1C262CC8F300C32577 /* FindCityWithSmallestNeighbors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE03C1B262CC8F300C32577 /* FindCityWithSmallestNeighbors.swift */; };
 		AEE0BC6E26041C13009CFD5A /* Who'sMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */; };
 		AEF698752624DD2200668316 /* MST.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF698742624DD2200668316 /* MST.swift */; };
 /* End PBXBuildFile section */
@@ -102,6 +104,7 @@
 		AE22CFCE260ACA6F00B21C69 /* lca100.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = lca100.out; sourceTree = "<group>"; };
 		AE22CFCF260ACA7000B21C69 /* lca10000.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = lca10000.out; sourceTree = "<group>"; };
 		AE41CDE92603F94E00BF3663 /* IndexPriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPriorityQueue.swift; sourceTree = "<group>"; };
+		AE45E665262B711E00AA95A3 /* CheapestFlightsWithinKStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheapestFlightsWithinKStops.swift; sourceTree = "<group>"; };
 		AE4B3F61261F8FD8003839FA /* CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseScheduleII.swift; sourceTree = "<group>"; };
 		AE4B3F65261FACEE003839FA /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		AE4B3F6A262007B9003839FA /* TwoCityScheduling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCityScheduling.swift; sourceTree = "<group>"; };
@@ -302,6 +305,7 @@
 		AEB519BC260011DC00532A04 /* Stack_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_.swift; sourceTree = "<group>"; };
 		AEB6AB56261E71B50070E14B /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
 		AEB6AB5A261E931C0070E14B /* TopologicalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSort.swift; sourceTree = "<group>"; };
+		AEE03C1B262CC8F300C32577 /* FindCityWithSmallestNeighbors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCityWithSmallestNeighbors.swift; sourceTree = "<group>"; };
 		AEE0BC6D26041C13009CFD5A /* Who'sMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Who'sMyParent.swift"; sourceTree = "<group>"; };
 		AEF698742624DD2200668316 /* MST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -698,6 +702,8 @@
 			isa = PBXGroup;
 			children = (
 				AEA7CA212628FE2A004C64CE /* NetworkDelayTime.swift */,
+				AE45E665262B711E00AA95A3 /* CheapestFlightsWithinKStops.swift */,
+				AEE03C1B262CC8F300C32577 /* FindCityWithSmallestNeighbors.swift */,
 			);
 			path = ShortestPaths;
 			sourceTree = "<group>";
@@ -867,6 +873,7 @@
 				AE63F4C726212D1A00F7F1D3 /* UF sol.swift in Sources */,
 				AE4D5AB8261421280090E7C8 /* Town.swift in Sources */,
 				AEA7CA222628FE2A004C64CE /* NetworkDelayTime.swift in Sources */,
+				AE45E666262B711E00AA95A3 /* CheapestFlightsWithinKStops.swift in Sources */,
 				AE5AF7C025F97A220091AD7B /* ExhaustiveSearch.swift in Sources */,
 				AE22CFB5260ABF7600B21C69 /* AdjacencyList.swift in Sources */,
 				AE85B7852616C57D00B4C1A3 /* SushiReview2.swift in Sources */,
@@ -892,6 +899,7 @@
 				AE5324172623BE33009FD7A6 /* PartitionLabels.swift in Sources */,
 				AE4BA9E725F82094000F8948 /* main.swift in Sources */,
 				AEB519B72600117400532A04 /* Bag_lecture.swift in Sources */,
+				AEE03C1C262CC8F300C32577 /* FindCityWithSmallestNeighbors.swift in Sources */,
 				AE51B6FD260672CB0063F936 /* SubstringAlgorithm.swift in Sources */,
 				AEB6AB57261E71B50070E14B /* CourseSchedule.swift in Sources */,
 			);

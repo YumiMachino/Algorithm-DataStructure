@@ -107,6 +107,11 @@ import Foundation
 //print(minimumCost.1)
 
 
-solutionRev()
+//solutionRev()
 //testInputHandler()
 //testHandler()
+//networkDelayTime([[1,2,1],[2,1,3]], 2, 2)
+//findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]], 0,2,0)
+//findTheCity(4, [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], 4)
+//findTheCity(5, [[0,1,2],[0,4,8],[1,2,3],[1,4,2],[2,3,1],[3,4,1]], 2)
+print(findTheCityRev(6, [[0,3,7],[2,4,1],[0,1,5],[2,3,10],[1,3,6],[1,2,1]], 417))
